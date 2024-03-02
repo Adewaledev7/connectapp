@@ -1,0 +1,156 @@
+.cdk {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cdk-container {
+  margin: 1rem 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.cdk-container h1 {
+  color: rgb(29 78 216);
+  padding: 1rem;
+}
+
+.cdk-container p {
+  margin: 1rem 0;
+  line-height: 30px;
+}
+
+.cdk-para-con {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  padding: 0 7rem;
+}
+
+.cdk-para h2 {
+  color: rgb(29 78 216);
+  display: grid;
+  text-align: left;
+  margin: 1rem 0;
+}
+.cdk-para p {
+  text-align: left;
+  line-height: 30px;
+}
+
+/* Media Quary */
+
+/* For 2 Extra Large View */
+@media screen and (max-width: 1400px) {
+}
+
+/* For Extra Large View */
+@media screen and (max-width: 1200px) {
+}
+
+/* For Large View */
+@media screen and (max-width: 992px) {
+  .cdk-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .cdk-container p {
+    margin: 1rem 0;
+    padding: 0 2rem;
+    line-height: 30px;
+  }
+  .cdk-image img {
+    height: auto;
+    width: 500px;
+  }
+  .cdk-para-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 3rem 2rem;
+  }
+
+  .cdk-para h2 {
+    display: grid;
+    text-align: left;
+    margin: 1rem 0;
+  }
+  .cdk-para p {
+    text-align: left;
+    line-height: 30px;
+  }
+}
+
+/* For Medium View */
+
+@media screen and (max-width: 768px) {
+  .cdk-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .cdk-container p {
+    margin: 1rem 0;
+    padding: 0 2rem;
+    line-height: 30px;
+  }
+  .cdk-image img {
+    height: auto;
+    width: 380px;
+  }
+  .cdk-para-con {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 3rem 2rem;
+  }
+
+  .cdk-para h2 {
+    display: grid;
+    text-align: left;
+    margin: 1rem 0;
+  }
+  .cdk-para p {
+    text-align: left;
+    line-height: 30px;
+  }
+}
+
+/* For Small View */
+@media screen and (max-width: 576px) {
+  .cdk-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .cdk-container p {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    line-height: 30px;
+    text-align: left;
+  }
+  .cdk-image img {
+    height: auto;
+    width: 300px;
+  }
+  .cdk-para-con {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 3rem 2rem;
+  }
+
+  .cdk-para h2 {
+    display: grid;
+    text-align: left;
+    margin: 1rem 0;
+  }
+  .cdk-para p {
+    text-align: left;
+    line-height: 30px;
+  }
+}

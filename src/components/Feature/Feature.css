@@ -1,0 +1,119 @@
+.feature {
+  width: 100%;
+  background-color: white;
+}
+.feature-header {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.feature-header h2 {
+  text-align: center;
+  color: rgb(29 78 216);
+  padding-top: 3rem;
+}
+.feature-header h4 {
+  padding-top: 2rem;
+}
+.feature-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 7rem 1rem 7rem;
+}
+.feature-container h4 {
+  padding-top: 1rem;
+  text-align: center;
+}
+.feature-container p {
+  padding-top: 1rem;
+  text-align: center;
+}
+.feature-container .image {
+  display: grid;
+  justify-content: center;
+}
+.feature-container img {
+  height: 100px;
+  width: 100px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* Media Quary */
+
+/* For 2 Extra Large View */
+@media screen and (max-width: 1400px) {
+}
+
+/* For Extra Large View */
+@media screen and (max-width: 1200px) {
+}
+
+/* For Large View */
+@media screen and (max-width: 992px) {
+  .feature-container {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2rem 1rem;
+  }
+  .feature-header h4 {
+    text-align: center;
+    padding: 0 1rem;
+  }
+}
+
+/* For Medium View */
+@media screen and (max-width: 768px) {
+  .feature-header {
+    padding: 1rem;
+  }
+  .feature-header h2 {
+    text-align: center;
+    color: rgb(29 78 216);
+    padding-top: 3rem;
+  }
+  .feature-header h4 {
+    text-align: center;
+  }
+  .feature-container {
+    grid-template-columns: 1fr;
+    margin: 2rem 1rem;
+  }
+  .feature-container h4 {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .feature-container p {
+    padding-top: 1rem;
+    text-align: center;
+  }
+}
+
+/* For Small View */
+@media screen and (max-width: 576px) {
+  .feature-header {
+    padding: 1rem;
+  }
+  .feature-header h2 {
+    text-align: center;
+    color: rgb(29 78 216);
+    padding-top: 3rem;
+  }
+  .feature-header h4 {
+    text-align: center;
+  }
+  .feature-container {
+    grid-template-columns: 1fr;
+    margin: 2rem 1rem;
+  }
+  .feature-container h4 {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  .feature-container p {
+    padding-top: 1rem;
+    text-align: center;
+  }
+}

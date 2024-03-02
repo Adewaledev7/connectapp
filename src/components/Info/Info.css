@@ -1,0 +1,19 @@
+.info {
+  background-color: #3e6fda;
+  font-weight: 600;
+  padding: 10px;
+  height: 30px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+.info button {
+  border-radius: 8px;
+  border: none;
+  color: white;
+  background-color: #3063d1;
+  font-size: 12px;
+  padding: 0.3rem;
+  margin-left: 1rem;
+  cursor: pointer;
+}
