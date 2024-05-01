@@ -1,0 +1,75 @@
+.footer {
+  width: 100%;
+}
+.footer-header {
+  display: grid;
+
+  padding: 2rem 7rem;
+}
+.company-name img {
+  height: 20px;
+  width: 35px;
+  cursor: pointer;
+}
+.company-name h2 {
+  color: #3e6fda;
+  font-weight: 500;
+  font-size: 15px;
+}
+.company-name {
+  display: flex;
+  text-decoration: none;
+}
+.company-name h2 {
+  margin-left: 0.5rem;
+}
+.social {
+  display: flex;
+}
+.social .icon {
+  height: 40px;
+  width: 40px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgb(223, 240, 240);
+  margin: 2rem 1rem 1rem 0;
+}
+.footer-header h4 {
+  font-weight: 400;
+}
+/* Media Quary */
+
+/* For 2 Extra Large View */
+@media screen and (max-width: 1400px) {
+}
+
+/* For Extra Large View */
+@media screen and (max-width: 1200px) {
+  .footer-header {
+    padding: 2rem 2rem;
+  }
+}
+
+/* For Large View */
+@media screen and (max-width: 992px) {
+  .footer-header {
+    padding: 2rem 2rem;
+  }
+}
+
+/* For Medium View */
+
+@media screen and (max-width: 768px) {
+  .footer-header {
+    padding: 2rem 2rem;
+  }
+}
+
+/* For Small View */
+@media screen and (max-width: 576px) {
+  .footer-header {
+    padding: 2rem 2rem;
+  }
+}

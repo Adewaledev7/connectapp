@@ -1,0 +1,167 @@
+.simple {
+    width: 100%;
+    background-color: rgb(223, 240, 240);
+  }
+  .simple-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7rem;
+  }
+  .simple-container .image {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .simple h2 {
+    text-align: center;
+    color: #3e6fda;
+    padding-top: 3rem;
+  }
+  .simple p {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .simple img {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .wall {
+    width: 100%;
+    background-color: rgb(223, 240, 240);
+  }
+  .wall-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7rem;
+  }
+  
+  .wall h2 {
+    text-align: center;
+    color: #3e6fda;
+    padding-top: 3rem;
+  }
+  .wall p {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .wall-img {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  .wall img {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  /* Media Quary */
+  
+  /* For 2 Extra Large View */
+  @media screen and (max-width: 1400px) {
+  }
+  
+  /* For Extra Large View */
+  @media screen and (max-width: 1200px) {
+  }
+  
+  /* For Large View */
+  @media screen and (max-width: 992px) {
+    .simple h2 {
+      text-align: center;
+      padding-top: 2.5rem;
+    }
+    .simple p {
+      text-align: center;
+      padding: 1rem 1rem;
+    }
+    .simple img {
+      height: 200px;
+      width: 600px;
+    }
+    .wall-container {
+      padding: 0 2rem;
+    }
+  
+    .wall h2 {
+      text-align: center;
+      padding-top: 2.5rem;
+    }
+    .wall p {
+      text-align: center;
+      padding: 1rem 1rem;
+    }
+    .wall img {
+      height: 500px;
+      width: 600px;
+    }
+  }
+  
+  /* For Medium View */
+  @media screen and (max-width: 768px) {
+    .simple h2 {
+      text-align: center;
+      padding-top: 2.5rem;
+    }
+    .simple p {
+      text-align: center;
+      padding: 1rem 1rem;
+    }
+    .simple img {
+      height: 180px;
+      width: 550px;
+    }
+    .wall-container {
+      padding: 0 2rem;
+    }
+  
+    .wall h2 {
+      text-align: center;
+      padding-top: 2.5rem;
+    }
+    .wall p {
+      text-align: center;
+      padding: 1rem 1rem;
+    }
+    .wall img {
+      height: 400px;
+      width: 500px;
+    }
+  }
+  
+  /* For Small View */
+  @media screen and (max-width: 576px) {
+    .simple h2 {
+      text-align: center;
+      padding-top: 2.5rem;
+    }
+    .simple p {
+      text-align: center;
+      padding: 1rem 1rem;
+    }
+    .simple img {
+      height: 130px;
+      width: 380px;
+    }
+  
+    .wall-container {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      padding: 0 7rem;
+    }
+  
+    .wall h2 {
+      text-align: center;
+      padding-top: 2.5rem;
+    }
+    .wall p {
+      text-align: center;
+      padding: 1rem 1rem;
+    }
+    .wall img {
+      height: 300px;
+      width: 400px;
+    }
+  }
+  

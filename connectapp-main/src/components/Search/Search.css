@@ -1,0 +1,132 @@
+.search {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container h2 {
+  text-align: center;
+}
+.search-container .input-container {
+  display: flex;
+}
+.search-container input {
+  height: 50px;
+  width: 70%;
+  border: 2px solid black;
+  margin: 2rem 0;
+  padding-left: 1rem;
+}
+.search-container .input-container button {
+  height: 53px;
+  width: 70px;
+  background-color: blue;
+  color: white;
+  border: none;
+  margin: 2rem 1rem;
+}
+.search ul {
+  display: grid;
+}
+.search ul a {
+  text-decoration: none;
+}
+.search ul button {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 80px;
+  width: 1100px;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 0.5rem 0;
+  padding: 0 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.search ul button h2 {
+  padding: 0 1rem;
+}
+.search ul button img {
+  height: 50px;
+  width: 50px;
+}
+.search p {
+  text-align: center;
+  padding: 1rem 0;
+  font-family: monospace;
+  font-size: 15px;
+}
+.search p span {
+  color: blue;
+}
+
+/* Media Query */
+
+/* 2 Extra Large */
+@media screen and (max-width: 1400px) {
+}
+
+/*  Extra Large */
+@media screen and (max-width: 1200px) {
+  .search ul button {
+    height: 78px;
+    width: 900px;
+  }
+  .search ul button img {
+    height: 45px;
+    width: 45px;
+  }
+  .search ul button h2 {
+    font-size: 18px;
+  }
+}
+
+/*  Large */
+@media screen and (max-width: 992px) {
+  .search ul button {
+    height: 75;
+    width: 700px;
+  }
+  .search ul button img {
+    height: 42px;
+    width: 42px;
+  }
+  .search ul button h2 {
+    font-size: 16px;
+  }
+}
+/* Medium */
+@media screen and (max-width: 760px) {
+  .search ul button {
+    height: 70px;
+    width: 600px;
+  }
+  .search ul button img {
+    height: 40px;
+    width: 40px;
+  }
+  .search ul button h2 {
+    font-size: 14px;
+  }
+  .search p {
+    padding: 0.5rem 0;
+    font-size: 12px;
+  }
+}
+/* Small */
+@media screen and (max-width: 576px) {
+  .search ul button {
+    height: 60px;
+    width: 400px;
+  }
+  .search ul button img {
+    height: 35px;
+    width: 35px;
+  }
+  .search ul button h2 {
+    font-size: 12px;
+  }
+}

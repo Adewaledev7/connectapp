@@ -1,0 +1,106 @@
+.query {
+  width: 100%;
+  height: 35vh;
+
+  background-color: rgb(223, 240, 240);
+}
+.query-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 7rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.query h3 {
+  text-align: center;
+  color: #3e6fda;
+  padding-top: 4rem;
+}
+.query-container button {
+  background-color: #3e6fda;
+
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  height: 2.8rem;
+  border-radius: 10px;
+}
+.query-container button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Media Quary */
+
+/* For 2 Extra Large View */
+@media screen and (max-width: 1400px) {
+}
+
+/* For Extra Large View */
+@media screen and (max-width: 1200px) {
+}
+
+/* For Large View */
+@media screen and (max-width: 992px) {
+  .query {
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+  }
+  .query-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .query-container button {
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    height: 2.8rem;
+  }
+}
+
+/* For Medium View */
+
+@media screen and (max-width: 768px) {
+  .query {
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+  }
+  .query-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .query-container button {
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    height: 2.8rem;
+  }
+}
+
+/* For Small View */
+@media screen and (max-width: 576px) {
+  .query {
+    width: 100%;
+    height: auto;
+    padding-bottom: 3rem;
+  }
+  .query-container {
+    grid-template-columns: 1fr;
+  }
+  .query-container button {
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    height: 2.8rem;
+  }
+}
+/* For Small View */
+@media screen and (max-width: 410px) {
+  .query-container button {
+    font-size: 12px;
+
+    width: 180px;
+  }
+}
