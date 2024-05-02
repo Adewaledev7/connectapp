@@ -16,7 +16,7 @@ function Webheader() {
         <div className="second">
           <h4>Wallets </h4>
           <h4> Apps</h4>
-          <h4></h4>
+          <h4> </h4>
         </div>
       </div>
     </div>

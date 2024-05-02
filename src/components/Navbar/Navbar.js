@@ -29,7 +29,7 @@ function Navbar() {
     <header>
       <div className="logo">
         <a href="/">
-          <img src="./assets/download.png" />
+          <img src="./assets/download.png" alt="logo" />
         </a>
         <p> WalletConnect</p>
       </div>
