@@ -1,0 +1,43 @@
+.Success-container {
+  display: grid;
+  justify-content: center;
+}
+.Success-header {
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+}
+.Success-header h2 {
+  padding: 1rem 3rem;
+  font-family: "Courier New", Courier, monospace;
+}
+/* Media Query */
+
+/* 2 Extra Large */
+@media screen and (max-width: 1400px) {
+}
+
+/*  Extra Large */
+@media screen and (max-width: 1200px) {
+  .Success-container {
+    margin: 0 4rem;
+  }
+}
+/*  Large */
+@media screen and (max-width: 992px) {
+  .Success-container {
+    margin: 0 3rem;
+  }
+}
+/* Medium */
+@media screen and (max-width: 760px) {
+  .Success-container {
+    margin: 0 2rem;
+  }
+}
+/* Small */
+@media screen and (max-width: 576px) {
+  .Success-container {
+    margin: 0 1rem;
+  }
+}

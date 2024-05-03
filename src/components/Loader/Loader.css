@@ -1,0 +1,39 @@
+.Loader-container {
+  display: grid;
+  justify-content: center;
+}
+.Loader-box {
+  width: 100px;
+  height: 100px;
+}
+
+/* Media Query */
+
+/* 2 Extra Large */
+@media screen and (max-width: 1400px) {
+}
+
+/*  Extra Large */
+@media screen and (max-width: 1200px) {
+  .Loader-container {
+    margin: 0 4rem;
+  }
+}
+/*  Large */
+@media screen and (max-width: 992px) {
+  .Loader-container {
+    margin: 0 3rem;
+  }
+}
+/* Medium */
+@media screen and (max-width: 760px) {
+  .Loader-container {
+    margin: 0 2rem;
+  }
+}
+/* Small */
+@media screen and (max-width: 576px) {
+  .Loader-container {
+    margin: 0 1rem;
+  }
+}

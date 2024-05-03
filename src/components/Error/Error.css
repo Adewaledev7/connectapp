@@ -1,0 +1,43 @@
+.Error-container {
+  display: grid;
+  justify-content: center;
+}
+.Error-header {
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+}
+.Error-header h2 {
+  padding: 1rem 3rem;
+  font-family: "Courier New", Courier, monospace;
+}
+/* Media Query */
+
+/* 2 Extra Large */
+@media screen and (max-width: 1400px) {
+}
+
+/*  Extra Large */
+@media screen and (max-width: 1200px) {
+  .Error-container {
+    margin: 0 4rem;
+  }
+}
+/*  Large */
+@media screen and (max-width: 992px) {
+  .Error-container {
+    margin: 0 3rem;
+  }
+}
+/* Medium */
+@media screen and (max-width: 760px) {
+  .Error-container {
+    margin: 0 2rem;
+  }
+}
+/* Small */
+@media screen and (max-width: 576px) {
+  .Error-container {
+    margin: 0 1rem;
+  }
+}
